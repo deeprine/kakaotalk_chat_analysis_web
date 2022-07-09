@@ -3,7 +3,7 @@ Application for data visualization and analysis with Kakao Talk conversation txt
 
 Google playstore - https://play.google.com/store/apps/details?id=com.Duruwa.turningcard
 
-![pose_skeleton]<img src="katalk_img.png" width="200" height="500"/>
+![pose_skeleton](katalk_img.png)
 
 Duruwa는 몇번의 클릭만으로 카카오톡 채팅을 분석해주는 어플리케이션 입니다. 단체 채팅방도 지원하지만
 1:1 채팅에서 더 많은 분석을 제공합니다.
