@@ -1,5 +1,5 @@
 # KakaoTalkChatAnalysis_Duruwa
-Application for data visualization and analysis with Kakao Talk conversation txt file
+카카오톡 대화 데이터를 이용한 시각화 및 분석 어플리케이션
 
 Google playstore - https://play.google.com/store/apps/details?id=com.Duruwa.turningcard
 
