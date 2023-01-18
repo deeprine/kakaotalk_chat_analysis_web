@@ -13,7 +13,7 @@
 pip install -r requirements.txt
 ```
 
-3. konlpy 설치 (window는 
+3. konlpy 설치 (window는 다른방법으로 설치)
 ```commandline
 sudo apt-get install g++ openjdk-8-jdk python3-dev python3-pip curl \
 python3 -m pip install konlpy 
