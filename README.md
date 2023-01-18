@@ -1,6 +1,27 @@
 # KakaoTalkChatAnalysis_Duruwa
 카카오톡 대화 데이터를 이용한 시각화 및 분석 web
 
+# install and start
+
+1. git clone 
+
+2. 라이브러리 설치
+```commandline
+pip install -r requirements.txt
+```
+
+3. konlpy 설치
+```commandline
+sudo apt-get install g++ openjdk-8-jdk python3-dev python3-pip curl \
+python3 -m pip install konlpy 
+```
+
+4. 서버 실행
+```commandline
+python main.py
+```
+
+
 Duruwa는 몇번의 클릭만으로 카카오톡 채팅을 분석해주는 어플리케이션 입니다. 단체 채팅방도 지원하지만
 1:1 채팅에서 더 많은 분석을 제공합니다.
 
