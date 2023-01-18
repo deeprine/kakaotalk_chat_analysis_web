@@ -24,7 +24,7 @@ python3 -m pip install konlpy
 python main.py
 ```
 
-5. web 실행후 카카오톡 대화 txt 파일을 사용해 
+5. web 실행후 카카오톡 대화 txt 파일을 사용하여 분석
 
 # 제공하는 기능
 
