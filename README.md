@@ -24,6 +24,8 @@ python3 -m pip install konlpy
 python main.py
 ```
 
+5. web 실행후 카카오톡 대화 txt 파일을 사용해 
+
 # 제공하는 기능
 
 - 1:1 채팅방과 단체채팅방을 지원합니다.
