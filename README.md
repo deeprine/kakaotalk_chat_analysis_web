@@ -1,7 +1,5 @@
 # KakaoTalkChatAnalysis_Duruwa
-카카오톡 대화 데이터를 이용한 시각화 및 분석 어플리케이션
-
-![pose_skeleton](katalk_img.png)
+카카오톡 대화 데이터를 이용한 시각화 및 분석 web
 
 Duruwa는 몇번의 클릭만으로 카카오톡 채팅을 분석해주는 어플리케이션 입니다. 단체 채팅방도 지원하지만
 1:1 채팅에서 더 많은 분석을 제공합니다.
