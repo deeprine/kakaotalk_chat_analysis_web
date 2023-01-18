@@ -3,6 +3,9 @@
 
 # install and start
 
+- python 3.7
+- ubuntu 18.04
+
 1. git clone 
 
 2. 라이브러리 설치
@@ -10,7 +13,7 @@
 pip install -r requirements.txt
 ```
 
-3. konlpy 설치
+3. konlpy 설치 (window는 
 ```commandline
 sudo apt-get install g++ openjdk-8-jdk python3-dev python3-pip curl \
 python3 -m pip install konlpy 
