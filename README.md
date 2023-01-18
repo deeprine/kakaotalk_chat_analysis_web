@@ -21,7 +21,7 @@ python3 -m pip install konlpy
 python main.py
 ```
 
-# 공하는 기능
+# 제공하는 기능
 
 - 1:1 채팅방과 단체채팅방을 지원합니다.
 - 사용자간의 채팅횟수 비율
