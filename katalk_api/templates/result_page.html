@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://bootstrapk.com/examples/cover/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="cssscreen.css">
+    <link rel="stylesheet" type="text/css" media="print" href="cssprint.css">
+    <link rel="icon" href="http://bootstrapk.com/favicon.ico">
+
+    <title>Duruwa</title>
+
+    <link href="./static/css/bootstrap.min.css?after" rel="stylesheet">
+
+    <link href="./static/css/cover.css?after" rel="stylesheet">
+
+    <script type="text/javascript">
+      let result_obj = {{result}};
+      let users = {{user_unique}};
+    </script>
+<!--    <script src="../../assets/js/ie8-responsive-file-warning.js"></script>-->
+<!--    <script src="./main_page_files/ie-emulation-modes-warning.js.다운로드"></script>-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js?{{current_time}}"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?{{current_time}}"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js?{{current_time}}"></script>
+  </head>
+
+  <body style="overflow-y:scroll;">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+<!--          <div class="masthead clearfix">-->
+            <div class="inner">
+              <h3 class="masthead-brand">Duruwa</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <h2 style="clear: both;padding-bottom: 50px" class="masthead-brand">{{title}} 분석 결과</h2>
+                  <br>
+
+                    <h3 style="clear: both" class="masthead-brand">우리의 대화가 연속으로 이어진날</h3>
+                    <div style="clear: both" id = "day_connection"></div>
+                    <br>
+                    <h3 style="clear: both" class="masthead-brand">우리의 대화가 연속으로 끊긴날</h3>
+                    <div style="clear: both;padding-bottom: 50px" id = "day_max_connection"></div>
+
+                    <h4 style="clear: both" >우리의 대화비율</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="ratio_piechart"></div>
+
+                    <h4 style="clear: both">우리의 사진 전송비율</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="pic_piechart"></div>
+
+                    <h4 style="clear: both">우리의 이모티콘 사용비율</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="emo_piechart"></div>
+
+                    <h4 style="clear: both">우리의 요일별 카톡대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="day_1_div"></div>
+
+                    <h4 style="clear: both">우리의 년도월 기준 카톡대화수 Top10</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="day_2_div"></div>
+
+                    <h4 style="clear: both">우리의 년도월일 기준 카톡대화수 Top10</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="day_3_div"></div>
+
+                    <h4 style="clear: both">우리의 시간별 카톡대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="day_4_div"></div>
+
+                    <h4 style="clear: both">사용자 시간별 대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id='user_day_1'></div>
+
+                    <h4 style="clear: both">사용자 요일별 대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id='user_day_2'></div>
+
+                    <h4 style="clear: both">사용자 년별 대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id='user_day_3'></div>
+
+                    <h4 style="clear: both">사용자 년도월별 대화수</h4>
+                    <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id='user_day_4'></div>
+
+                    {% if not danche %}
+                        <h4 style="clear: both">우리의 말투</h4>
+                        <div style="clear: both;padding-bottom: 20px;width: 100%;height: 300px" id="speech_1_div"></div>
+                        <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="speech_2_div"></div>
+
+                        <h4 style="clear: both">우리의 대화주제</h4>
+                        <div style="clear: both;padding-bottom: 20px;width: 100%;height: 300px" id="topic_1_div"></div>
+                        <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="topic_2_div"></div>
+
+                        <h4 style="clear: both">우리는 이런 주제로 대화하면 좋아요</h4>
+                        <div style="clear: both;padding-bottom: 50px;width: 100%;height: 300px" id="recommend_div"></div>
+                    {% endif %}
+<!--                    {% if not danche %}-->
+<!--                        <br>-->
+<!--                        <h3 style="clear: both" class="masthead-brand">머신러닝으로 상대방과 나의 대화주제를 찾았어요.</h3>-->
+<!--                        <div style="clear: both" id = 'topic_user_1'></div>-->
+<!--                        <br>-->
+<!--                        <div style="clear: both" id = 'topic_user_2'></div>-->
+<!--                        <br>-->
+<!--                        <div style="clear: both" id = 'topic_recommend'></div>-->
+<!--                    {% endif %}-->
+                </ul>
+              </nav>
+            </div>
+<!--          </div>-->
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!--    <script src="./main_page_files/jquery.min.js.다운로드"></script>-->
+    <script src="./static/js/bootstrap.min.js?{{current_time}}"></script>
+    <script src="./static/js/ie10-viewport-bug-workaround.js?{{current_time}}"></script>
+    <script src="./static/js/charts.js?{{current_time}}"></script>
+
+</body>
+</html>

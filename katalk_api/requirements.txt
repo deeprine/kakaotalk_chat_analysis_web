@@ -1,0 +1,15 @@
+sanic
+Pillow
+natsort
+PYJWT
+uvicorn
+nltk
+future
+aiotask-context
+numpy
+requests
+pandas
+sanic-jinja2
+sanic-session
+scipy
+scikit-learn

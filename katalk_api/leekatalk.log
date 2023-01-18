@@ -1,0 +1,6 @@
+error=FileNotFound('File not found')
+exc_type=<class 'sanic.exceptions.FileNotFound'>, filename='app.py', line_no=968
+error=FileNotFound('File not found')
+exc_type=<class 'sanic.exceptions.FileNotFound'>, filename='app.py', line_no=968
+error=NotFound('Requested URL /favicon.ico not found')
+exc_type=<class 'sanic.exceptions.NotFound'>, filename='app.py', line_no=904
