@@ -45,3 +45,7 @@ python main.py
 - 머신러닝 알고리즘을 이용해 상대방과
 나의 대화주제를 확률적으로 추출 (1:1채팅방만 지원)
 - 대화주제 추천 (1:1채팅방만 지원)
+
+<img src="./imgs/test2.png" width = "100" height = "100">
+<img src="./imgs/test3.png">
+
