@@ -1,5 +1,7 @@
 카카오톡 대화 데이터를 이용한 시각화 및 분석 web
 
+<img src="./imgs/test1.png">
+
 # install and start
 
 - python 3.7
